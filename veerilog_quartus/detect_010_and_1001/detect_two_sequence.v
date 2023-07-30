@@ -24,12 +24,10 @@ end
 
 // This design have a synchronous reset
 always @(posedge clk) begin
-	if (reset) begin
+	if (reset) 
 		present_state = s0;
-		end
-	else begin
+	else 
 		present_state = next_state;
-		end
 end
 
 always @(posedge clk) begin
