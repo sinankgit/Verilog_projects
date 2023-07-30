@@ -9,7 +9,7 @@ mod_10_counter dividerby10_1(.clk(clk), .reset(reset), .q(out_clk_1[0]));
 genvar i;
 generate
 for (i =1; i < 7; i = i + 1) begin : loop_1
-	mod_10_counter dividerby10_1(.clk(out_clk_1[i-1]), .reset(reset), .q(out_clk_1[i]));
+	mod_10_counter dividerby10_2(.clk(out_clk_1[i-1]), .reset(reset), .q(out_clk_1[i]));
 	end
 endgenerate
 
