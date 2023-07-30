@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/digital_design_course_iit_bombay/verilog/Sequence_detector/detect_010_and_1001/simulation/qsim
+vdetect_two_sequence
+Z1 !s110 1690687324
+!i10b 1
+!s100 cDdb2hV1fi;GAg583_m3_2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IShL7PcVaMiBBAkEG6C[RI2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1690687322
+8detect_two_sequence.vo
+Fdetect_two_sequence.vo
+!i122 22
+L0 32 443
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1690687324.000000
+!s107 detect_two_sequence.vo|
+!s90 -work|work|detect_two_sequence.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vdetect_two_sequence_vlg_vec_tst
+R1
+!i10b 1
+!s100 k139BDLEJD7A7T;ezme@g3
+R2
+Ick]hQKUP[Z:5WoZJVR4[n2
+R3
+R0
+R4
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 23
+L0 30 51
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R7
+R8

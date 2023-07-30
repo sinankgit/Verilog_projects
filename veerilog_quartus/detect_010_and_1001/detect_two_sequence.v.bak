@@ -1,0 +1,6 @@
+/* In this module we are going to detect 010 and 1001 with overlapping
+	we are designing a mealy machine. In a mealy FSM ouput depends on both 
+	current input and the present state */
+
+module detect_two_sequence(input data_in, input clk, input reset, output data_out);
+
