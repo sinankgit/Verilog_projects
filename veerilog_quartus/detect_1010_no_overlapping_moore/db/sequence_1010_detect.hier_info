@@ -1,0 +1,16 @@
+|sequence_1010_detect
+data_in => Selector1.IN2
+data_in => Selector1.IN3
+data_in => next_state.s3.DATAB
+data_in => Selector1.IN4
+data_in => Selector0.IN4
+data_in => next_state.s4.DATAB
+data_in => Selector0.IN1
+data_in => Selector0.IN2
+data_in => Selector1.IN1
+data_in => next_state.s2.DATAB
+clk => present_state~1.DATAIN
+areset => present_state~3.DATAIN
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

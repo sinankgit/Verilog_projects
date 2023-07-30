@@ -1,0 +1,8 @@
+
+State Machine - |sequence_1010_detect|present_state
+Name present_state.s3 present_state.s2 present_state.s1 present_state.s0 present_state.s4 
+present_state.s0 0 0 0 0 0 
+present_state.s1 0 0 1 1 0 
+present_state.s2 0 1 0 1 0 
+present_state.s3 1 0 0 1 0 
+present_state.s4 0 0 0 1 1 

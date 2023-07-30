@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/digital_design_course_iit_bombay/verilog/Sequence_detector/detect_1010_overlapping_moore/simulation/qsim
+vsequence_1010_detect
+!s110 1690681816
+!i10b 1
+!s100 <VBPFLGgDIz6MHWo_3zNe1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IE:dEIGi^L9YH94LU<A]LL0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1690681813
+8sequence_1010_detect.vo
+Fsequence_1010_detect.vo
+!i122 6
+L0 32 290
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1690681816.000000
+!s107 sequence_1010_detect.vo|
+!s90 -work|work|sequence_1010_detect.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vsequence_1010_detect_vlg_vec_tst
+!s110 1690681817
+!i10b 1
+!s100 joeNIPG;3Vn?@7?IS?l[k3
+R1
+I>E1Y7UAm7=]?;9M]]Y:FM3
+R2
+R0
+w1690681812
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 7
+L0 30 58
+R3
+r1
+!s85 0
+31
+!s108 1690681817.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R4
+R5
