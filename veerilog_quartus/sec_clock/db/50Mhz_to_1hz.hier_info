@@ -1,0 +1,279 @@
+|one_sec_clk
+clk => clk.IN1
+reset => reset.IN8
+sec_clk << mod_5_counter:divideby5_1.q
+
+
+|one_sec_clk|mod_10_counter:dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[1].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[1].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[1].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[1].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[1].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[2].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[2].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[2].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[2].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[2].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[3].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[3].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[3].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[3].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[3].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[4].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[4].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[4].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[4].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[4].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[5].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[5].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[5].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[5].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[5].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[6].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[6].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[6].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[6].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_10_counter:loop_1[6].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_5_counter:divideby5_1
+clk => clk.IN3
+reset => reset_chance.IN1
+reset => y1_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_5_counter:divideby5_1|tff_1:u12
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_5_counter:divideby5_1|tff_1:tff22
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|one_sec_clk|mod_5_counter:divideby5_1|tff_1:tff32
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
