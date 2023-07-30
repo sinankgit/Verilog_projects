@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/digital_design_course_iit_bombay/System_verilog/50mhz_to_1hz/simulation/qsim
+vclock_by_15
+Z1 !s110 1690594821
+!i10b 1
+!s100 98zQc2gDDQ[z;oNmH2H5m1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IGKf4m5kl5_VZNL0hQX:WU2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1690594819
+Z4 850Mhz_to_1hz.vo
+Z5 F50Mhz_to_1hz.vo
+!i122 16
+L0 32 62
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1690594821.000000
+Z8 !s107 50Mhz_to_1hz.vo|
+Z9 !s90 -work|work|50Mhz_to_1hz.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vclock_by_15_vlg_vec_tst
+R1
+!i10b 1
+!s100 f:ezS_S=e0Z09j;DN_bCG0
+R2
+I8zGbhE;m_IoQfNMiNYOLH2
+R3
+R0
+w1690594818
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 17
+Z12 L0 30 35
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+vdivide_by_50
+!s110 1690596076
+!i10b 1
+!s100 BU:m0S]UP^^_VT@Y;WfJh3
+R2
+IOY`]_ajle6?UG?CAjZ<]d3
+R3
+R0
+w1690596074
+R4
+R5
+!i122 22
+L0 32 1018
+R6
+r1
+!s85 0
+31
+!s108 1690596076.000000
+R8
+R9
+!i113 1
+R10
+R11
+vdivide_by_50_vlg_vec_tst
+!s110 1690596077
+!i10b 1
+!s100 Oe?cLYzbGRPM]5ClhiM[31
+R2
+ID;WimJDAPoY`?cL[>eoa12
+R3
+R0
+w1690596073
+8Waveform5.vwf.vt
+FWaveform5.vwf.vt
+!i122 23
+R12
+R6
+r1
+!s85 0
+31
+!s108 1690596077.000000
+!s107 Waveform5.vwf.vt|
+!s90 -work|work|Waveform5.vwf.vt|
+!i113 1
+R10
+R11
