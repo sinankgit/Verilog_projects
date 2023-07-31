@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/digital_design_course_iit_bombay/verilog/Traffic_light/simulation/qsim
+vtraf_light
+Z1 !s110 1690731278
+!i10b 1
+!s100 iWIYZmRU>M<`;bMSW6@X30
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IoUJK0<0fiS^L[<:MVkgV81
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1690731276
+8traf_light.vo
+Ftraf_light.vo
+!i122 16
+L0 32 879
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1690731278.000000
+!s107 traf_light.vo|
+!s90 -work|work|traf_light.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtraf_light_vlg_vec_tst
+R1
+!i10b 1
+!s100 jV_4:DnBOKLXNIAF`z<:00
+R2
+IgB0NNXJUPKD5mX@gQC7mX0
+R3
+R0
+w1690731275
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 17
+L0 30 49
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

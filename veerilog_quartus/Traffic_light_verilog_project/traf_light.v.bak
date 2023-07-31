@@ -1,0 +1,9 @@
+module traf_light(input clk, input reset,
+						output North_1, output North_0,
+						output east_1, output east_0,
+						output west_1, output west_0,
+						output south_1, output south_0);
+
+						
+						
+endmodule

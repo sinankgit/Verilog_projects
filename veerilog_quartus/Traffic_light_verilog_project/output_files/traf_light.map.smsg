@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at traf_light.v(29): always construct contains both blocking and non-blocking assignments File: C:/digital_design_course_iit_bombay/verilog/Traffic_light/traf_light.v Line: 29

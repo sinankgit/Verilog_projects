@@ -1,0 +1,106 @@
+# Reading pref.tcl
+# do traf_light_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light {C:/digital_design_course_iit_bombay/verilog/Traffic_light/tff_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:57:19 on Jul 31,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light" C:/digital_design_course_iit_bombay/verilog/Traffic_light/tff_1.v 
+# -- Compiling module tff_1
+# 
+# Top level modules:
+# 	tff_1
+# End time: 05:57:19 on Jul 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light {C:/digital_design_course_iit_bombay/verilog/Traffic_light/one_sec_clk.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:57:20 on Jul 31,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light" C:/digital_design_course_iit_bombay/verilog/Traffic_light/one_sec_clk.v 
+# -- Compiling module one_sec_clk
+# 
+# Top level modules:
+# 	one_sec_clk
+# End time: 05:57:20 on Jul 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light {C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_10_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:57:20 on Jul 31,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light" C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_10_counter.v 
+# -- Compiling module mod_10_counter
+# 
+# Top level modules:
+# 	mod_10_counter
+# End time: 05:57:20 on Jul 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light {C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_5_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:57:20 on Jul 31,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light" C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_5_counter.v 
+# -- Compiling module mod_5_counter
+# 
+# Top level modules:
+# 	mod_5_counter
+# End time: 05:57:20 on Jul 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light {C:/digital_design_course_iit_bombay/verilog/Traffic_light/traf_light.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:57:21 on Jul 31,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light" C:/digital_design_course_iit_bombay/verilog/Traffic_light/traf_light.v 
+# -- Compiling module traf_light
+# 
+# Top level modules:
+# 	traf_light
+# End time: 05:57:21 on Jul 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light {C:/digital_design_course_iit_bombay/verilog/Traffic_light/encoder_4_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:57:21 on Jul 31,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light" C:/digital_design_course_iit_bombay/verilog/Traffic_light/encoder_4_2.v 
+# -- Compiling module encoder_4_2
+# 
+# Top level modules:
+# 	encoder_4_2
+# End time: 05:57:21 on Jul 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light {C:/digital_design_course_iit_bombay/verilog/Traffic_light/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:57:21 on Jul 31,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light" C:/digital_design_course_iit_bombay/verilog/Traffic_light/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 05:57:21 on Jul 31,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L maxv_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 05:57:22 on Jul 31,2023
+# Loading work.testbench
+# Loading work.traf_light
+# Loading work.one_sec_clk
+# Loading work.mod_10_counter
+# Loading work.tff_1
+# Loading work.mod_5_counter
+# Loading work.encoder_4_2
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: muham  Hostname: DEVICE  ProcessID: 23260
+#           Attempting to use alternate WLF file "./wlftd5mgd8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftd5mgd8
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all

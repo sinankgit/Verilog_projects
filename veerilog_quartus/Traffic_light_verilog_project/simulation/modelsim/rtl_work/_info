@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/digital_design_course_iit_bombay/verilog/Traffic_light/simulation/modelsim
+vencoder_4_2
+Z1 !s110 1690763241
+!i10b 1
+!s100 ;T>RZYPVhYle4IEV]SS_=2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IIBX>i0U961:d050AV=Gag3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1690728833
+8C:/digital_design_course_iit_bombay/verilog/Traffic_light/encoder_4_2.v
+FC:/digital_design_course_iit_bombay/verilog/Traffic_light/encoder_4_2.v
+!i122 5
+L0 1 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1690763241.000000
+!s107 C:/digital_design_course_iit_bombay/verilog/Traffic_light/encoder_4_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light|C:/digital_design_course_iit_bombay/verilog/Traffic_light/encoder_4_2.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light
+Z8 tCvgOpt 0
+vmod_10_counter
+Z9 !s110 1690763240
+!i10b 1
+!s100 34[3QM:J@lGPCl6VZ=a0Y1
+R2
+I>Z`nUePijf<Xdmoa1189^2
+R3
+R0
+w1690592433
+8C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_10_counter.v
+FC:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_10_counter.v
+!i122 2
+L0 4 24
+R4
+r1
+!s85 0
+31
+Z10 !s108 1690763240.000000
+!s107 C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_10_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light|C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_10_counter.v|
+!i113 1
+R6
+R7
+R8
+vmod_5_counter
+R9
+!i10b 1
+!s100 I6>R3YEDKgL6J]bRH3L4;2
+R2
+IlNV94kESb:WEj0z7W37h61
+R3
+R0
+w1690565689
+8C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_5_counter.v
+FC:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_5_counter.v
+!i122 3
+L0 5 23
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_5_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light|C:/digital_design_course_iit_bombay/verilog/Traffic_light/mod_5_counter.v|
+!i113 1
+R6
+R7
+R8
+vone_sec_clk
+R9
+!i10b 1
+!s100 3WPWecV8:GLZf6<dEg>nb3
+R2
+IEakZ?6]?:oo^CT7Q7TzRL0
+R3
+R0
+w1690732141
+8C:/digital_design_course_iit_bombay/verilog/Traffic_light/one_sec_clk.v
+FC:/digital_design_course_iit_bombay/verilog/Traffic_light/one_sec_clk.v
+!i122 1
+L0 3 16
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/digital_design_course_iit_bombay/verilog/Traffic_light/one_sec_clk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light|C:/digital_design_course_iit_bombay/verilog/Traffic_light/one_sec_clk.v|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+!i10b 1
+!s100 bz;Jilz7<7DIZeogLh2ni0
+R2
+I2n@Qgj^eLJ>cIIna7b`_K2
+R3
+R0
+w1690732847
+8C:/digital_design_course_iit_bombay/verilog/Traffic_light/testbench.v
+FC:/digital_design_course_iit_bombay/verilog/Traffic_light/testbench.v
+!i122 6
+L0 2 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/digital_design_course_iit_bombay/verilog/Traffic_light/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light|C:/digital_design_course_iit_bombay/verilog/Traffic_light/testbench.v|
+!i113 1
+R6
+R7
+R8
+vtff_1
+!s110 1690763239
+!i10b 1
+!s100 <6`Y0F[N3_czMG?C8hl1=1
+R2
+I4g6F6EKEG8FoMhMQkA<9P3
+R3
+R0
+w1690564835
+8C:/digital_design_course_iit_bombay/verilog/Traffic_light/tff_1.v
+FC:/digital_design_course_iit_bombay/verilog/Traffic_light/tff_1.v
+!i122 0
+L0 1 11
+R4
+r1
+!s85 0
+31
+!s108 1690763239.000000
+!s107 C:/digital_design_course_iit_bombay/verilog/Traffic_light/tff_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light|C:/digital_design_course_iit_bombay/verilog/Traffic_light/tff_1.v|
+!i113 1
+R6
+R7
+R8
+vtraf_light
+R1
+!i10b 1
+!s100 V2CJR:V6UzFZgPN<KO@Db1
+R2
+I5:lHzBQJ42T3^ziZa=kSX0
+R3
+R0
+w1690732089
+8C:/digital_design_course_iit_bombay/verilog/Traffic_light/traf_light.v
+FC:/digital_design_course_iit_bombay/verilog/Traffic_light/traf_light.v
+!i122 4
+L0 1 135
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/digital_design_course_iit_bombay/verilog/Traffic_light/traf_light.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/digital_design_course_iit_bombay/verilog/Traffic_light|C:/digital_design_course_iit_bombay/verilog/Traffic_light/traf_light.v|
+!i113 1
+R6
+R7
+R8

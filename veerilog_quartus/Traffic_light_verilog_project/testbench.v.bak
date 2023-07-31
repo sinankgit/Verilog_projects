@@ -1,0 +1,17 @@
+`timescale 1ns/1ns
+module testbench();
+
+reg reset = 1'b1;
+reg clock = 1'b0;
+
+wire [1:0] North_out, South_out, East_out, West_out;
+
+traf_light DUT(.clk(clock), .reset(reset), );
+
+initial begin
+	#25 reset = 1'b0;
+end
+
+always #10 clock = ~clock;
+
+endmodule;
