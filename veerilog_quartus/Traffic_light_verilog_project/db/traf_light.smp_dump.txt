@@ -1,0 +1,11 @@
+
+State Machine - |traf_light|present_state
+Name present_state.W_N_yellow present_state.West_green present_state.S_W_yellow present_state.South_green present_state.E_S_yellow present_state.East_green present_state.N_E_yellow present_state.North_green 
+present_state.North_green 0 0 0 0 0 0 0 0 
+present_state.N_E_yellow 0 0 0 0 0 0 1 1 
+present_state.East_green 0 0 0 0 0 1 0 1 
+present_state.E_S_yellow 0 0 0 0 1 0 0 1 
+present_state.South_green 0 0 0 1 0 0 0 1 
+present_state.S_W_yellow 0 0 1 0 0 0 0 1 
+present_state.West_green 0 1 0 0 0 0 0 1 
+present_state.W_N_yellow 1 0 0 0 0 0 0 1 

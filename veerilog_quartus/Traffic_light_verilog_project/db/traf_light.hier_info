@@ -1,0 +1,332 @@
+|traf_light
+clk => clk.IN1
+reset => reset.IN1
+North_1 << encoder_4_2:north_encoder.data_out
+North_0 << encoder_4_2:north_encoder.data_out
+East_1 << encoder_4_2:East_encoder.data_out
+East_0 << encoder_4_2:East_encoder.data_out
+West_1 << encoder_4_2:West_encoder.data_out
+West_0 << encoder_4_2:West_encoder.data_out
+South_1 << encoder_4_2:South_encoder.data_out
+South_0 << encoder_4_2:South_encoder.data_out
+
+
+|traf_light|one_sec_clk:sec_clk_1
+clk => clk.IN1
+reset => reset.IN8
+sec_clk <= mod_5_counter:divideby5_1.q
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[1].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[1].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[1].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[1].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[1].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[2].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[2].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[2].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[2].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[2].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[3].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[3].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[3].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[3].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[3].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[4].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[4].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[4].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[4].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[4].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[5].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[5].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[5].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[5].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[5].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[6].dividerby10_1
+clk => clk.IN4
+reset => reset_chance.IN1
+reset => y2_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[6].dividerby10_1|tff_1:tff1
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[6].dividerby10_1|tff_1:tff2
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[6].dividerby10_1|tff_1:tff3
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_10_counter:loop_1[6].dividerby10_1|tff_1:tff4
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_5_counter:divideby5_1
+clk => clk.IN3
+reset => reset_chance.IN1
+reset => y1_delay.ACLR
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_5_counter:divideby5_1|tff_1:u12
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_5_counter:divideby5_1|tff_1:tff22
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|one_sec_clk:sec_clk_1|mod_5_counter:divideby5_1|tff_1:tff32
+T => q~reg0.ENA
+reset_1 => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|encoder_4_2:north_encoder
+data_in[0] => ~NO_FANOUT~
+data_in[1] => data_out.IN0
+data_in[2] => data_out.IN0
+data_in[3] => data_out.IN1
+data_in[3] => data_out.IN1
+data_out[0] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|encoder_4_2:East_encoder
+data_in[0] => ~NO_FANOUT~
+data_in[1] => data_out.IN0
+data_in[2] => data_out.IN0
+data_in[3] => data_out.IN1
+data_in[3] => data_out.IN1
+data_out[0] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|encoder_4_2:South_encoder
+data_in[0] => ~NO_FANOUT~
+data_in[1] => data_out.IN0
+data_in[2] => data_out.IN0
+data_in[3] => data_out.IN1
+data_in[3] => data_out.IN1
+data_out[0] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traf_light|encoder_4_2:West_encoder
+data_in[0] => ~NO_FANOUT~
+data_in[1] => data_out.IN0
+data_in[2] => data_out.IN0
+data_in[3] => data_out.IN1
+data_in[3] => data_out.IN1
+data_out[0] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
