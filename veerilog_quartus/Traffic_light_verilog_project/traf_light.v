@@ -46,8 +46,10 @@ always @(posedge sec_clock, posedge reset) begin
 end
 
 always @(posedge sec_clock, posedge reset) begin
+	// on reset it goes to north green light
 	if (reset)
 		present_state <= North_green;
+	// if the next state is yellow then we need to wait for five seconds
 	else if (next_yellow) begin
 		if (reached_five)
 			present_state <= next_state;
